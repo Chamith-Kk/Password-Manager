@@ -13,7 +13,7 @@ def load_key():
     file.close()
     return key
 
-
+master_pwd = input("What is the master password? ")
 key = load_key()
 fer = Fernet(key)
 
